@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+.my-component {
+  border: 1px solid black;
+}
+.todoListContainer {
+  margin-top: 20px;
+  border: 1px solid red;
+}
+.todoList {
+  display: flex;
+  flex-direction: column;
+  gap: 5;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  width: "100%";
+}
+
+.add-todo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+ul {
+  width: 110px;
+}
